@@ -1,6 +1,6 @@
 # python-challenge
 
-  **PyBank** is a Python script that analyzes the records in financial dataset called **budget_data.csv** and calculate each of the following values:
+  The **PyBank** directory contains a Python script named **main.py** that analyzes the records in financial dataset called **budget_data.csv** and calculate each of the following values:
 
   1. The total number of months included in the dataset
 
@@ -17,7 +17,7 @@
   
 
   
-  **PyPoll** is a Python script that analyzes the votes in a set of poll data called **election_data.csv** and calculates each of the following values:
+  The **PyPoll** directory contains a Python script named **main.py** that analyzes the votes in a set of poll data called **election_data.csv** and calculates each of the following values:
 
   1. The total number of votes cast
 
