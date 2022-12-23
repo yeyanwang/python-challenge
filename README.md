@@ -1,6 +1,6 @@
 # python-challenge
 
-  **PyBank** is a Python script that analyzes the records to calculate each of the following values:
+  **PyBank** is a Python script that analyzes the records in financial dataset called **budget_data.csv** and calculate each of the following values:
 
   1. The total number of months included in the dataset
 
@@ -11,9 +11,11 @@
   4. The greatest increase in profits (date and amount) over the entire period
 
   5. The greatest decrease in profits (date and amount) over the entire period
+  
+  The script also print the analysis to the terminal and export a text file with the results.
 
   
-  **PyPoll** is a Python script that analyzes the votes and calculates each of the following values:
+  **PyPoll** is a Python script that analyzes the votes in a set of poll data called **election_data.csv** and calculates each of the following values:
 
   1. The total number of votes cast
 
@@ -25,4 +27,4 @@
 
   5. The winner of the election based on popular vote
   
-  
+  The script also print the analysis to the terminal and export a text file with the results.
