@@ -13,6 +13,8 @@
   5. The greatest decrease in profits (date and amount) over the entire period
   
   The script also print the analysis to the terminal and export a text file called **budget_analysis.txt** with the results.
+  
+  
 
   
   **PyPoll** is a Python script that analyzes the votes in a set of poll data called **election_data.csv** and calculates each of the following values:
