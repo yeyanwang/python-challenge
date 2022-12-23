@@ -52,6 +52,9 @@ output = ("Election Results" + "\n"
     "-------------------------"
     )
     
+# Print the result to terminal
+print(output)
+
 # Specify the file to write
 election_final = os.path.join("election_final.txt")
 

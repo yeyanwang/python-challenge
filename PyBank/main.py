@@ -57,6 +57,9 @@ output = ("Financial Analysis" + "\n"
     f"Greatest Decrease in Profits: {decrease_date} (${decrease})"
     )
 
+# Print the result to terminal
+print(output)
+
 # Specify the file to write
 financial_analysis = os.path.join("financial_analysis.txt")
 
