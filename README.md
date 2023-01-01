@@ -1,4 +1,4 @@
-# python-challenge
+# PyBank & PyPoll
 
   The **PyBank** directory contains a Python script named **main.py** that analyzes the records in financial dataset called **budget_data.csv** and calculate each of the following values:
 
