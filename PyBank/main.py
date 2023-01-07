@@ -49,13 +49,13 @@ with open(budget_file) as csv_file:
 
 # Output values
 output = ("Financial Analysis" + "\n"
-    "----------------------------" + "\n"
-    f"Total Month: {months}" + "\n"
-    f"Total: ${total}" + "\n"
-    f"Average Change: ${((last - first)/(months - 1)):.2f}" + "\n"
-    f"Greatest Increase in Profits: {increase_date} (${increase})" + "\n"
-    f"Greatest Decrease in Profits: {decrease_date} (${decrease})"
-    )
+          "----------------------------" + "\n"
+          f"Total Month: {months}" + "\n"
+          f"Total: ${total}" + "\n"
+          f"Average Change: ${((last - first)/(months - 1)):.2f}" + "\n"
+          f"Greatest Increase in Profits: {increase_date} (${increase})" + "\n"
+          f"Greatest Decrease in Profits: {decrease_date} (${decrease})"
+         )
 
 # Print the result to terminal
 print(output)
