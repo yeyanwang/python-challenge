@@ -41,16 +41,16 @@ with open(election_file) as file:
 
 # Output values
 output = ("Election Results" + "\n"
-    "-------------------------" + "\n"  
-    f"Total votes: {votes}" + "\n"
-    "-------------------------" + "\n"  
-    f"Charles Casper Stockham: {100 * c_vote / votes:.3f}% ({c_vote})" + "\n"
-    f"Diana DeGette: {100 * d_vote / votes:.3f}% ({d_vote})" + "\n"
-    f"Raymon Anthony Doane: {100 * r_vote / votes:.3f}% ({r_vote})" + "\n"
-    "-------------------------" + "\n"
-    f"Winner: {winner}" + "\n"
-    "-------------------------"
-    )
+          "-------------------------" + "\n"  
+          f"Total votes: {votes}" + "\n"
+          "-------------------------" + "\n"  
+          f"Charles Casper Stockham: {100 * c_vote / votes:.3f}% ({c_vote})" + "\n"
+          f"Diana DeGette: {100 * d_vote / votes:.3f}% ({d_vote})" + "\n"
+          f"Raymon Anthony Doane: {100 * r_vote / votes:.3f}% ({r_vote})" + "\n"
+          "-------------------------" + "\n"
+          f"Winner: {winner}" + "\n"
+          "-------------------------"
+         )
     
 # Print the result to terminal
 print(output)
